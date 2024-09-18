@@ -88,7 +88,7 @@ header h1 {
   color: #ecb12f;
 }
 
-header div div {
+.header-buttons {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -115,14 +115,18 @@ header button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  position: relative;
 }
 
 .button-google img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: #fff;
   border-radius: 8px;
-  justify-self: flex-start;
+  position: absolute;
+  left: 5px;
+  margin: 0;
 }
 
 header button img {
